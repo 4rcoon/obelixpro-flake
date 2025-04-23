@@ -4,27 +4,25 @@
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
 
   outputs = { self, nixpkgs }: {
-    packages.x86_64-linux.default = let
+    apps.x86_64-linux.install = {
+      type = "app";
+      program = "${self.packages.x86_64-linux.install}/bin/install-obelixpro";
+    };
+
+    packages.x86_64-linux.install = let
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
-    in pkgs.stdenv.mkDerivation {
+    in pkgs.writeShellApplication {
       name = "install-obelixpro";
+      runtimeInputs = [ pkgs.unzip pkgs.gnused pkgs.curl ];
 
-      src = ./.;
-
-      nativeBuildInputs = [ pkgs.unzip pkgs.gnused pkgs.curl ];
-
-      installPhase = ''
-        export HOME=$HOME  # assure que $HOME pointe vers le bon répertoire
-
+      text = ''
         echo "📁 Installation de la police ObelixPro..."
 
         mkdir -p "$HOME/.fonts"
-        mkdir -p "$HOME/.local/share/fonts"
-        unzip -o $src/obelix-pro.zip -d "$HOME/.fonts"
-        unzip -o $src/obelix-pro.zip -d "$HOME/.local/share/fonts"
+        unzip -o "${./obelix-pro.zip}" -d "$HOME/.fonts"
 
         echo "🔁 Mise à jour du cache de polices..."
-        ${pkgs.fontconfig}/bin/fc-cache -fv > /dev/null
+        fc-cache -fv > /dev/null
 
         echo "🔍 Recherche du dossier de config JetBrains Rider..."
         CONFIG_DIR=$(find "$HOME/.config/JetBrains" -maxdepth 1 -type d -name "Rider*" | sort -r | head -n1)/options
@@ -38,10 +36,11 @@
         for FILE in editor.xml editor-font.xml ui.lnf.xml; do
           TARGET="$CONFIG_DIR/$FILE"
           if [ -f "$TARGET" ]; then
-            sed -i "s/\(<option name=\"\(FONT_FACE\|EDITOR_FONT_NAME\|FONT_NAME\)\" value=\"\)[^\"]*\(\"\/>\)/\1Obelix Pro\3/g" "$TARGET"
+            sed -i "s/\(<option name=\"\\(FONT_FACE\\|EDITOR_FONT_NAME\\|FONT_NAME\\)\" value=\"\)[^\"]*\(\"\/>\)/\1Obelix Pro\3/g" "$TARGET"
           fi
         done
 
+        chmod -R u+rwX,go+rX "$HOME/.fonts"
         echo "✅ Police ObelixPro installée et configurée pour JetBrains Rider !"
         echo "🧠 Redémarre Rider pour voir les changements."
       '';

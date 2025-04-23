@@ -3,23 +3,20 @@
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
 
-  outputs = { self, nixpkgs }: {
-    apps.x86_64-linux.install = {
-      type = "app";
-      program = "${self.packages.x86_64-linux.install}/bin/install-obelixpro";
-    };
-
-    packages.x86_64-linux.install = let
-      pkgs = nixpkgs.legacyPackages.x86_64-linux;
-    in pkgs.writeShellApplication {
+  outputs = { self, nixpkgs }: let
+    system = "x86_64-linux";
+    pkgs = nixpkgs.legacyPackages.${system};
+  in {
+    packages.${system}.install = pkgs.writeShellApplication {
       name = "install-obelixpro";
       runtimeInputs = [ pkgs.unzip pkgs.gnused pkgs.curl ];
 
       text = ''
+        set -e
         echo "📁 Installation de la police ObelixPro..."
 
         mkdir -p "$HOME/.fonts"
-        unzip -o "${./obelix-pro.zip}" -d "$HOME/.fonts"
+        unzip -o "${self}/obelix-pro.zip" -d "$HOME/.fonts"
 
         echo "🔁 Mise à jour du cache de polices..."
         fc-cache -fv > /dev/null
@@ -44,6 +41,11 @@
         echo "✅ Police ObelixPro installée et configurée pour JetBrains Rider !"
         echo "🧠 Redémarre Rider pour voir les changements."
       '';
+    };
+
+    apps.${system}.install = {
+      type = "app";
+      program = "${self.packages.${system}.install}/bin/install-obelixpro";
     };
   };
 }

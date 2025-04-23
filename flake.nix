@@ -33,7 +33,7 @@
         for FILE in editor.xml editor-font.xml ui.lnf.xml; do
           TARGET="$CONFIG_DIR/$FILE"
           if [ -f "$TARGET" ]; then
-            sed -i "s/\(<option name=\"\\(FONT_FACE\\|EDITOR_FONT_NAME\\|FONT_NAME\\)\" value=\"\)[^\"]*\(\"\/>\)/\1Obelix Pro\3/g" "$TARGET"
+            sed -i "s/\(<option name=\"\\(FONT_FACE\\|EDITOR_FONT_NAME\\|FONT_NAME\\)\" value=\"\)[^\"]*\(\"\/>\)/\1ObelixPro\3/g" "$TARGET"
           fi
         done
 

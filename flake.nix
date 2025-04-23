@@ -14,16 +14,20 @@
       nativeBuildInputs = [ pkgs.unzip pkgs.gnused pkgs.curl ];
 
       installPhase = ''
+        export HOME=$HOME  # assure que $HOME pointe vers le bon répertoire
+
         echo "📁 Installation de la police ObelixPro..."
 
-        mkdir -p $HOME/.fonts
-        unzip -o $src/obelix-pro.zip -d $HOME/.fonts
+        mkdir -p "$HOME/.fonts"
+        mkdir -p "$HOME/.local/share/fonts"
+        unzip -o $src/obelix-pro.zip -d "$HOME/.fonts"
+        unzip -o $src/obelix-pro.zip -d "$HOME/.local/share/fonts"
 
         echo "🔁 Mise à jour du cache de polices..."
-        fc-cache -fv > /dev/null
+        ${pkgs.fontconfig}/bin/fc-cache -fv > /dev/null
 
         echo "🔍 Recherche du dossier de config JetBrains Rider..."
-        CONFIG_DIR=$(find ~/.config/JetBrains -maxdepth 1 -type d -name "Rider*" | sort -r | head -n1)/options
+        CONFIG_DIR=$(find "$HOME/.config/JetBrains" -maxdepth 1 -type d -name "Rider*" | sort -r | head -n1)/options
 
         if [ ! -d "$CONFIG_DIR" ]; then
           echo "❌ Dossier de configuration Rider introuvable."

@@ -96,3 +96,100 @@ drwxr-xr-x 2 nils.desbonnet students   2048 Feb  5 14:33 linux
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
   </component>
 </application>
+📄 5. Fichiers XML dans /home/nils.desbonnet/.config/JetBrains/Rider2024.3/options :
+total 351
+-rw-r--r-- 1 nils.desbonnet students  25119 Apr 24 14:15 actionSummary.xml
+-rw-r--r-- 1 nils.desbonnet students    281 Feb  5 14:33 advancedSettings.xml
+-rw-r--r-- 1 nils.desbonnet students    133 Feb  5 14:33 AquaNewUserFeedbackService.xml
+-rw-r--r-- 1 nils.desbonnet students    186 Feb  5 14:33 AquaOldUserFeedbackService.xml
+-rw-r--r-- 1 nils.desbonnet students  11971 Feb  5 14:33 ChartsStyleConfig.xml
+-rw-r--r-- 1 nils.desbonnet students    144 Feb  5 14:33 codeLens.xml
+-rw-r--r-- 1 nils.desbonnet students    134 Apr 16 18:00 colors.scheme.xml
+-rw-r--r-- 1 nils.desbonnet students    103 Feb  5 14:33 CommonFeedbackSurveyService.xml
+-rw-r--r-- 1 nils.desbonnet students    116 Feb  5 14:33 console-font.xml
+-rw-r--r-- 1 nils.desbonnet students   2413 Feb  7 18:26 csvSettings.xml
+-rw-r--r-- 1 nils.desbonnet students   3612 Feb  5 15:01 databaseSettings.xml
+-rw-r--r-- 1 nils.desbonnet students     94 Feb  5 14:33 dataViewsSettings.xml
+-rw-r--r-- 1 nils.desbonnet students    812 Feb 13 08:45 debugger.xml
+-rw-r--r-- 1 nils.desbonnet students    141 Feb  5 14:33 diff.xml
+-rw-r--r-- 1 nils.desbonnet students    104 Feb  5 14:33 DontShowAgainFeedbackService.xml
+-rw-r--r-- 1 nils.desbonnet students    163 Feb  5 14:33 editor.codeinsight.xml
+-rw-r--r-- 1 nils.desbonnet students    116 Apr 24 14:21 editor-font.xml
+-rw-r--r-- 1 nils.desbonnet students   1026 Apr 24 14:21 editor.xml
+-rw-r--r-- 1 nils.desbonnet students  12097 Apr 18 19:04 features.usage.statistics.xml
+-rw-r--r-- 1 nils.desbonnet students    426 Feb  5 14:33 filetypes.xml
+-rw-r--r-- 1 nils.desbonnet students    328 Feb  5 14:33 find.xml
+-rw-r--r-- 1 nils.desbonnet students     90 Feb  5 14:33 gitlab.xml
+-rw-r--r-- 1 nils.desbonnet students    202 Feb  5 14:33 ide-features-trainer.xml
+-rw-r--r-- 1 nils.desbonnet students    131 Feb  5 14:33 ide.general.local.xml
+-rw-r--r-- 1 nils.desbonnet students    377 Feb  5 14:36 ide.general.xml
+-rw-r--r-- 1 nils.desbonnet students    106 Feb  5 14:33 KafkaConsumerProducerFeedbackService.xml
+-rw-r--r-- 1 nils.desbonnet students    279 Feb  5 14:33 keymapFlags.xml
+-rw-r--r-- 1 nils.desbonnet students    239 Apr 16 18:00 laf.xml
+drwxr-xr-x 2 nils.desbonnet students   2048 Feb  5 14:33 linux
+-rw-r--r-- 1 nils.desbonnet students     91 Feb  5 14:33 log-categories.xml
+-rw-r--r-- 1 nils.desbonnet students    169 Feb  5 14:36 notifications.xml
+-rw-r--r-- 1 nils.desbonnet students   9548 Apr 18 10:19 other.xml
+-rw-r--r-- 1 nils.desbonnet students    156 Feb  5 14:33 profilerRunConfigurations.xml
+-rw-r--r-- 1 nils.desbonnet students    936 Feb  5 14:33 project.default.xml
+-rw-r--r-- 1 nils.desbonnet students    146 Feb  5 14:33 projectView.xml
+-rw-r--r-- 1 nils.desbonnet students    157 Feb  5 16:53 PyCharmCEFeedbackService.xml
+-rw-r--r-- 1 nils.desbonnet students   9052 Apr 14 12:54 recentSolutionsConfiguration.xml
+-rw-r--r-- 1 nils.desbonnet students  25959 Apr 24 14:15 recentSolutions.xml
+-rw-r--r-- 1 nils.desbonnet students    387 Feb  5 14:33 RiderPerAppSettingsManager.xml
+-rw-r--r-- 1 nils.desbonnet students   5469 Apr 18 18:53 rider.perapp.window.state.v2.xml
+-rw-r--r-- 1 nils.desbonnet students 168037 Feb 11 12:14 riderProjectTemplateCache.xml
+-rw-r--r-- 1 nils.desbonnet students   2509 Feb  5 14:58 riderVersions.xml
+-rw-r--r-- 1 nils.desbonnet students   2447 Apr 17 18:36 runner.layout.xml
+-rw-r--r-- 1 nils.desbonnet students    128 Feb  5 14:33 security.xml
+-rw-r--r-- 1 nils.desbonnet students    177 Feb  5 14:33 settingsSyncLocal.xml
+-rw-r--r-- 1 nils.desbonnet students    151 Feb  5 14:33 settingsSync.xml
+-rw-r--r-- 1 nils.desbonnet students    180 Feb  5 14:33 spellchecker-dictionary.xml
+-rw-r--r-- 1 nils.desbonnet students    138 Feb  5 14:33 sshRecentConnectionsHost.xml
+-rw-r--r-- 1 nils.desbonnet students    158 Feb  5 14:33 sshRecentConnections.v2.xml
+-rw-r--r-- 1 nils.desbonnet students    103 Feb  5 15:01 textmate.xml
+-rw-r--r-- 1 nils.desbonnet students   6954 Apr 14 12:54 trusted-paths.xml
+-rw-r--r-- 1 nils.desbonnet students   4238 Apr 14 12:54 trustedSolutions.xml
+-rw-r--r-- 1 nils.desbonnet students    184 Apr 24 14:21 ui.lnf.xml
+-rw-r--r-- 1 nils.desbonnet students    407 Apr 18 17:04 updates.xml
+-rw-r--r-- 1 nils.desbonnet students    278 Apr 24 14:15 usage.statistics.xml
+-rw-r--r-- 1 nils.desbonnet students    374 Feb  5 14:36 vcs.xml
+-rw-r--r-- 1 nils.desbonnet students  10603 Feb  5 14:33 web-types-npm-loader.xml
+-rw-r--r-- 1 nils.desbonnet students   1709 Feb  5 15:01 window.layouts.xml
+-rw-r--r-- 1 nils.desbonnet students   3249 Apr 18 10:46 window.state.xml
+
+🔍 6. Recherche de 'Obelix' dans les fichiers XML :
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/recentSolutions.xml:137:        <entry key="$USER_HOME$/afs/epita-prepa-computer-science-prog-101-p-04-2029-nils.desbonnet/IObelixAdventures.sln">
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/recentSolutions.xml:139:            <RecentProjectMetaInfo frameTitle="IObelixAdventures – Program.cs" projectWorkspaceId="2nQKiUiUDjv7k40OAGsTo58kOCB">
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/recentSolutions.xml:233:        <entry key="$USER_HOME$/afs/epita-prepa-computer-science-prog-102-p-04-2029-nils.desbonnet/ObelixAndCo.sln">
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/recentSolutions.xml:235:            <RecentProjectMetaInfo frameTitle="ObelixAndCo – Grid.cs" projectWorkspaceId="2pyVvluwmRNauUU014PmXTwI7Q4">
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/recentSolutionsConfiguration.xml:54:        <entry key="$USER_HOME$/afs/epita-prepa-computer-science-prog-101-p-04-2029-nils.desbonnet/IObelixAdventures.sln">
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/recentSolutionsConfiguration.xml:91:        <entry key="$USER_HOME$/afs/epita-prepa-computer-science-prog-102-p-04-2029-nils.desbonnet/ObelixAndCo.sln">
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/trusted-paths.xml:20:        <entry key="$USER_HOME$/afs/epita-prepa-computer-science-prog-101-p-04-2029-nils.desbonnet/.idea/.idea.IObelixAdventures" value="true" />
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/trusted-paths.xml:30:        <entry key="$USER_HOME$/afs/epita-prepa-computer-science-prog-102-p-04-2029-nils.desbonnet/.idea/.idea.ObelixAndCo" value="true" />
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/trustedSolutions.xml:13:        <option value="$USER_HOME$/afs/epita-prepa-computer-science-prog-101-p-04-2029-nils.desbonnet/.idea/.idea.IObelixAdventures" />
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/trustedSolutions.xml:19:        <option value="$USER_HOME$/afs/epita-prepa-computer-science-prog-102-p-04-2029-nils.desbonnet/.idea/.idea.ObelixAndCo" />
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/spellchecker-dictionary.xml:4:      <w>grobelix</w>
+
+📃 7. Contenu complet de editor.xml (si existe) :
+<application>
+  <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
+    <option name="selectAutopopupSuggestionsByChars" value="true" />
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
+    <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
+    <option name="INSERT_BRACE_ON_ENTER" value="false" />
+  </component>
+  <component name="EditorSettings">
+    <option name="STRIP_TRAILING_SPACES" value="None" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+    <option name="IS_WHEEL_FONTCHANGE_PERSISTENT" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\bNotImplementedException\b" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG:)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+  </component>
+</application>

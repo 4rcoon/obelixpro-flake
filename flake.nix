@@ -16,7 +16,7 @@
         echo "📁 Installation de la police ObelixPro..."
 
         mkdir -p "$HOME/.fonts"
-        unzip -o "${self}/obelix-pro.zip" -d "$HOME/.fonts"
+        unzip -o "${self}/obelix-pro.zip" -d "$HOME/.local/share/fonts"
 
         echo "🔁 Mise à jour du cache de polices..."
         fc-cache -fv > /dev/null

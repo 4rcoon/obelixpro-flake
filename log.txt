@@ -1,13 +1,13 @@
 
 📄 5. Fichiers XML dans /home/nils.desbonnet/.config/JetBrains/Rider2024.3/options :
-total 326
--rw-r--r-- 1 nils.desbonnet students  25205 Apr 24 14:22 actionSummary.xml
+total 328
+-rw-r--r-- 1 nils.desbonnet students  25205 Apr 24 14:55 actionSummary.xml
 -rw-r--r-- 1 nils.desbonnet students    281 Feb  5 14:33 advancedSettings.xml
 -rw-r--r-- 1 nils.desbonnet students    133 Feb  5 14:33 AquaNewUserFeedbackService.xml
 -rw-r--r-- 1 nils.desbonnet students    186 Feb  5 14:33 AquaOldUserFeedbackService.xml
 -rw-r--r-- 1 nils.desbonnet students  11971 Feb  5 14:33 ChartsStyleConfig.xml
 -rw-r--r-- 1 nils.desbonnet students    144 Feb  5 14:33 codeLens.xml
--rw-r--r-- 1 nils.desbonnet students    134 Apr 16 18:00 colors.scheme.xml
+-rw-r--r-- 1 nils.desbonnet students    141 Apr 24 14:55 colors.scheme.xml
 -rw-r--r-- 1 nils.desbonnet students    103 Feb  5 14:33 CommonFeedbackSurveyService.xml
 -rw-r--r-- 1 nils.desbonnet students    116 Feb  5 14:33 console-font.xml
 -rw-r--r-- 1 nils.desbonnet students   2413 Feb  7 18:26 csvSettings.xml
@@ -17,7 +17,7 @@ total 326
 -rw-r--r-- 1 nils.desbonnet students    141 Feb  5 14:33 diff.xml
 -rw-r--r-- 1 nils.desbonnet students    104 Feb  5 14:33 DontShowAgainFeedbackService.xml
 -rw-r--r-- 1 nils.desbonnet students    163 Feb  5 14:33 editor.codeinsight.xml
--rw-r--r-- 1 nils.desbonnet students    116 Apr 24 14:21 editor-font.xml
+-rw-r--r-- 1 nils.desbonnet students    168 Apr 24 14:54 editor-font.xml
 -rw-r--r-- 1 nils.desbonnet students   1026 Apr 24 14:21 editor.xml
 -rw-r--r-- 1 nils.desbonnet students  12097 Apr 18 19:04 features.usage.statistics.xml
 -rw-r--r-- 1 nils.desbonnet students    426 Feb  5 14:33 filetypes.xml
@@ -32,15 +32,15 @@ total 326
 drwxr-xr-x 2 nils.desbonnet students   2048 Feb  5 14:33 linux
 -rw-r--r-- 1 nils.desbonnet students     91 Feb  5 14:33 log-categories.xml
 -rw-r--r-- 1 nils.desbonnet students    169 Feb  5 14:36 notifications.xml
--rw-r--r-- 1 nils.desbonnet students   7755 Apr 24 14:22 other.xml
+-rw-r--r-- 1 nils.desbonnet students   9450 Apr 24 14:53 other.xml
 -rw-r--r-- 1 nils.desbonnet students    156 Feb  5 14:33 profilerRunConfigurations.xml
 -rw-r--r-- 1 nils.desbonnet students    936 Feb  5 14:33 project.default.xml
 -rw-r--r-- 1 nils.desbonnet students    146 Feb  5 14:33 projectView.xml
 -rw-r--r-- 1 nils.desbonnet students    157 Feb  5 16:53 PyCharmCEFeedbackService.xml
 -rw-r--r-- 1 nils.desbonnet students   9174 Apr 24 14:22 recentSolutionsConfiguration.xml
--rw-r--r-- 1 nils.desbonnet students   2229 Apr 24 14:22 recentSolutions.xml
+-rw-r--r-- 1 nils.desbonnet students   2242 Apr 24 14:55 recentSolutions.xml
 -rw-r--r-- 1 nils.desbonnet students    387 Feb  5 14:33 RiderPerAppSettingsManager.xml
--rw-r--r-- 1 nils.desbonnet students   5471 Apr 24 14:22 rider.perapp.window.state.v2.xml
+-rw-r--r-- 1 nils.desbonnet students   5469 Apr 24 14:39 rider.perapp.window.state.v2.xml
 -rw-r--r-- 1 nils.desbonnet students 168037 Feb 11 12:14 riderProjectTemplateCache.xml
 -rw-r--r-- 1 nils.desbonnet students   2509 Feb  5 14:58 riderVersions.xml
 -rw-r--r-- 1 nils.desbonnet students   2447 Apr 17 18:36 runner.layout.xml
@@ -55,13 +55,15 @@ drwxr-xr-x 2 nils.desbonnet students   2048 Feb  5 14:33 linux
 -rw-r--r-- 1 nils.desbonnet students   4277 Apr 24 14:22 trustedSolutions.xml
 -rw-r--r-- 1 nils.desbonnet students    184 Apr 24 14:21 ui.lnf.xml
 -rw-r--r-- 1 nils.desbonnet students    407 Apr 24 14:22 updates.xml
--rw-r--r-- 1 nils.desbonnet students    278 Apr 24 14:22 usage.statistics.xml
+-rw-r--r-- 1 nils.desbonnet students    278 Apr 24 14:55 usage.statistics.xml
 -rw-r--r-- 1 nils.desbonnet students    374 Feb  5 14:36 vcs.xml
 -rw-r--r-- 1 nils.desbonnet students  10603 Feb  5 14:33 web-types-npm-loader.xml
 -rw-r--r-- 1 nils.desbonnet students   1709 Feb  5 15:01 window.layouts.xml
--rw-r--r-- 1 nils.desbonnet students   3249 Apr 24 14:22 window.state.xml
+-rw-r--r-- 1 nils.desbonnet students   3248 Apr 24 14:53 window.state.xml
 
 🔍 6. Recherche de 'Obelix' dans les fichiers XML :
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/other.xml:11:    <option name="fontFace" value="ObelixPro" />
+/home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/editor-font.xml:4:    <option name="FONT_FAMILY" value="ObelixPro" />
 /home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/recentSolutionsConfiguration.xml:59:        <entry key="$USER_HOME$/afs/epita-prepa-computer-science-prog-101-p-04-2029-nils.desbonnet/IObelixAdventures.sln">
 /home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/recentSolutionsConfiguration.xml:96:        <entry key="$USER_HOME$/afs/epita-prepa-computer-science-prog-102-p-04-2029-nils.desbonnet/ObelixAndCo.sln">
 /home/nils.desbonnet/.config/JetBrains/Rider2024.3/options/trusted-paths.xml:21:        <entry key="$USER_HOME$/afs/epita-prepa-computer-science-prog-101-p-04-2029-nils.desbonnet/.idea/.idea.IObelixAdventures" value="true" />

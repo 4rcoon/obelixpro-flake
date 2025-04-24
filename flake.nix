@@ -43,9 +43,9 @@
       '';
     };
 
-    apps.${system}.install = {
+    apps.${system}.default = {
       type = "app";
-      program = "${self.packages.${system}.install}/bin/install-obelixpro";
+      program = "${self.packages.${system}.default}/bin/install-obelixpro";
     };
   };
 }

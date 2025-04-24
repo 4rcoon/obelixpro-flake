@@ -7,7 +7,7 @@
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
   in {
-    packages.${system}.install = pkgs.writeShellApplication {
+    packages.${system}.default = pkgs.writeShellApplication {
       name = "install-obelixpro";
       runtimeInputs = [ pkgs.unzip pkgs.gnused pkgs.curl ];
 

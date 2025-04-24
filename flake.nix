@@ -5,8 +5,9 @@
 
   outputs = { self, nixpkgs }: let
     system = "x86_64-linux";
-    pkgs = nixpkgs.legacyPackages.${system};
+    pkgs = import nixpkgs {inherit system;};
   in {
+  
     packages.${system}.default = pkgs.writeShellApplication {
       name = "install-obelixpro";
       runtimeInputs = [ pkgs.unzip pkgs.gnused pkgs.curl ];
@@ -43,7 +44,7 @@
       '';
     };
 
-    apps.${system}.default = {
+    apps."${system}".default = {
       type = "app";
       program = "${self.packages.${system}.default}/bin/install-obelixpro";
     };
